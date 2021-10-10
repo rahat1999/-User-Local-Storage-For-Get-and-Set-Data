@@ -27,6 +27,7 @@ const removeFromDb = id => {
   const exists = getDb();
   if (!exists) {
 
+    //এই জাগাটা খালি রাখতে পারি বা শুধু returnকরেতে পারি/কারন হচ্ছে আমাদের  সপিং কার্ডে প্রডাক্ট না থাকলে কিছু তো রিমোভ করা যাবে না 
   }
   else {
     const shopping_cart = JSON.parse(exists);
